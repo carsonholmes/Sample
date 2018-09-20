@@ -4,5 +4,5 @@ checkout([$class: 'GitSCM',
     extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'sampleStage']], 
     submoduleCfg: [], 
     userRemoteConfigs: [[url: 'https://github.com/carsonholmes/Sample']]])
-
+echo 'Checkout Complete'
 
