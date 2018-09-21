@@ -4,7 +4,7 @@ var app = express();
 console.log("Starting server...");
 
 app.get('/', function (req, res) {
-    res.send('Hello from SDE Node Sample!');
+    res.send('Hello from SDE Node Sample!  Today is September 21st.');
 });
 
 app.listen(3000, function () {
